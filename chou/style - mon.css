@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    background-color: #333333;
+    color: #ffffff
+}
+
+header {
+    background-color: #020202;
+    display: flex;
+    width: 960;
+    height: 300;
+    margin: 0;
+}
+
+a { color:#ffffff; text-decoration:none; }
+
+.logo {
+    position: relative;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.logo:hover {
+    text-decoration: underline;
+}
+
+nav {
+    position: absolute;
+    top: 13px;
+    right: 100px;
+    align-items: center;
+}
+
+.lists {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+.list {
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.list:hover {
+    color: #0abebe;
+    border: #ffffff solid 1px;
+    line-height: 1.5;
+}
+
+.fod{
+    float: left;
+    width: 580px;
+    margin-top: 90px;
+    margin-left: 180px;
+}
+
+h1{
+    font-size: 100px;
+    float: right;
+    margin-top: 330px;
+    margin-right: 250px;
+}
+
+h2{
+    font-size: 40px;
+    margin-top: 740px;
+}
+
+li {
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+.hrf{
+    width: 550px;
+    margin-top: -30px;
+    border-top: 5px solid;
+    border-color: #0abebe;
+}
+
+.howimg{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.howto{
+    text-align: center;
+    font-size: 22px;
+}
+
+.howto p{
+    text-align:left;
+    margin-left: 450px;
+}
+
+.pp{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.hrs {
+    width: 800px;
+    border-top: 3px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+.end{
+    text-align:left;
+    font-size: 22px;
+    margin-left: 450px;
+    margin-bottom: 60px;
+
+}
+
+.footer{
+    background-color: #020202;
+    padding: 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footlink li{
+    display: inline;
+    font-size: 20px;
+}
+
+.border{
+    color: #333333;
+    font-weight: bold;
+}
+
+.copyright{
+    margin-left: 35px;
+}
